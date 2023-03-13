@@ -23,11 +23,20 @@
                 <div id="myPopup" class="popup">
                     <a href="#" class="popup-close">&times;</a>
                     <p>
-                        <h3>Enter your name<input type="text" name="nameField"></h3>
-                        <h3>Enter your surname<input type="text" name="surnameField"></h3>
-                        <h3>Enter your phone number<input type="text" name="numberField"></h3>
-                        <button type="submit">Reserve</button>
+                        <h3>Name<input type="text" name="nameField" required></h3>
+                        <h3>Surname<input type="text" name="surnameField" required></h3>
+                        <h3>Phone number<input type="text" name="numberField" required></h3>
+                        <h3>Enter months<select name="data" required>
+                            <option value="1">1</option>
+                            <option value="3">3</option>
+                            <option value="6">6</option>
+                            <option value="12">12</option>
+                        </select></h3>
+                    <button type="submit">Reserve</button>
                     </p>
+                    <%
+
+                    %>
                 </div>
             </main>
 
